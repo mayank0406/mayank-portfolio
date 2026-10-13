@@ -21,30 +21,88 @@ export const profile = {
     twitter: "",
   },
   about: [
-    "Full Stack Developer with 2+ years of experience building scalable, production-ready MERN stack applications. Skilled in React.js, Next.js, Node.js, Express.js, and MongoDB, with a strong track record of architecting RESTful APIs, optimizing application performance, and delivering measurable business impact.",
+    "Full Stack Developer with 3+ years of experience building scalable, production-ready MERN stack applications. Skilled in React.js, Next.js, Node.js, Express.js, and MongoDB, with a strong track record of architecting RESTful APIs, optimizing application performance, and delivering measurable business impact.",
     "I focus on end-to-end feature ownership — from database schema design to frontend implementation — with an emphasis on clean code, reusability, and Agile collaboration.",
   ],
 };
 
+// export const skills = [
+//   {
+//     category: "Frontend",
+//     items: ["React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "Redux", "Context API", "Tailwind CSS", "HTML5", "CSS3"],
+//   },
+//   {
+//     category: "Backend",
+//     items: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "RBAC"],
+//   },
+//   {
+//     category: "Database",
+//     items: ["MongoDB", "Mongoose ODM", "Aggregation Pipeline", "Compound Indexing"],
+//   },
+//   {
+//     category: "Tools & DevOps",
+//     items: ["Git", "GitHub", "Docker", "CI/CD", "Vercel", "Render", "Postman", "Cloudinary"],
+//   },
+// ];
+
 export const skills = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "JavaScript (ES6+)", "TypeScript", "Redux", "Context API", "Tailwind CSS", "HTML5", "CSS3"],
+    items: [
+      "React.js",
+      "Next.js",
+      "JavaScript (ES6+)",
+      "TypeScript",
+      "Redux",
+      "Context API",
+      "Tailwind CSS",
+      "HTML5",
+      "CSS3",
+      "Responsive Design",
+    ],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express.js", "REST APIs", "JWT Authentication", "RBAC"],
+    items: [
+      "Node.js",
+      "Express.js",
+      "REST APIs",
+      "JWT Authentication",
+      "RBAC",
+      "Middleware & Error Handling",
+    ],
   },
   {
     category: "Database",
-    items: ["MongoDB", "Mongoose ODM", "Aggregation Pipeline", "Compound Indexing"],
+    items: [
+      "MongoDB",
+      "Mongoose ODM",
+      "Aggregation Pipeline",
+      "Compound Indexing",
+      "SQL",
+      "PostgreSQL",
+    ],
+  },
+  {
+    category: "Cloud (AWS)",
+    items: ["EC2", "S3", "SNS", "IAM"],
   },
   {
     category: "Tools & DevOps",
-    items: ["Git", "GitHub", "Docker", "CI/CD", "Vercel", "Render", "Postman", "Cloudinary"],
+    items: [
+      "Git",
+      "GitHub",
+      "GitHub Actions",
+      "Docker",
+      "CI/CD",
+      "Linux",
+      "Vercel",
+      "Render",
+      "Postman",
+      "Cloudinary",
+    ],
   },
 ];
-
 export const projects = [
   {
     title: "DealDox — Enterprise Workflow Platform",
@@ -83,7 +141,7 @@ export const experience = [
     type: "work",
     title: "Software Developer (Team Lead)",
     organization: "SPM Global Technologies",
-    period: "Aug 2023 — Nov 2025",
+    period: "Aug 2023 —  Present",
     description:
       "Led end-to-end development of DealDox, a multi-module enterprise platform for survey management, pricing workflows, and multi-level approval matrices, using React.js, Node.js, and MongoDB.",
     highlights: [
